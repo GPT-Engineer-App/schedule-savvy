@@ -40,7 +40,7 @@ const Index = () => {
   return (
     <VStack p={4}>
       <Text fontSize="2xl" fontWeight="bold">
-        Todo App Edited
+        Todo App Edited #2
       </Text>
       <Box>
         <Input placeholder="Add a new todo" value={input} onChange={handleInputChange} onKeyPress={handleKeyPress} />
